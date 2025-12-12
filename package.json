@@ -10,5 +10,8 @@
     "@openzeppelin/contracts-upgradeable": "^5.2.0",
     "@openzeppelin/hardhat-upgrades": "^3.9.0",
     "@remix-project/remixd": "^0.6.45"
+  },
+  "overrides": {
+    "ethereumjs-vm": "npm:@ethereumjs/vm@latest"
   }
 }

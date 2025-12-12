@@ -68,7 +68,7 @@ async function main() {
     await testERC721.connect(signer).setApprovalForAll(nftAuctionProxy.address, true);
 
     await nftAuction.createAuction(
-        10,
+        1000,
         ethers.parseEther("0.01"),
         testERC721Address,
         tokenId
